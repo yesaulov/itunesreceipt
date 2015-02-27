@@ -1,0 +1,31 @@
+{
+    "name": "yesaulov/itunesreceipt",
+    "description": "check itunes payment",
+	"version": "0.1",
+    "keywords": [
+        "itunes",
+        "ipad",
+        "iphone",
+        "verify",
+		"receipt"
+    ],
+	"minimum-stability": "dev",
+    "homepage": "https://github.com/yesaulov/itunesreceipt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Esaulov",
+            "email": "v.yesaulov@gmail.com",
+            "homepage": "https://github.com/yesaulov"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itunes\\": "src/"
+        }
+    }
+}
